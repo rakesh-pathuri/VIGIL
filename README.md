@@ -1,41 +1,35 @@
-# VIGIL
+<p align="center">
+  <img src="docs/images/logo.png" width="180" alt="Vigil Sentinel Logo" />
+</p>
 
-**Autonomous Zero-Knowledge Link Intelligence & Anti-Phishing Sentinel for Android**
+<h1 align="center">VIGIL</h1>
 
-[![Platform](https://img.shields.io/badge/Platform-Android_9.0+_(API_28+)-green.svg)](https://developer.android.com)
-[![Language](https://img.shields.io/badge/Language-Kotlin_2.0-blue.svg)](https://kotlinlang.org)
-[![UI Framework](https://img.shields.io/badge/UI-Jetpack_Compose_Material_3-purple.svg)](https://developer.android.com/jetpack/compose)
-[![Binary Size](https://img.shields.io/badge/Binary_Size-3.54_MB_(R8_Optimized)-brightgreen.svg)]()
-[![Privacy](https://img.shields.io/badge/Privacy-100%25_On--Device_Inference-black.svg)]()
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+<p align="center">
+  <b>Autonomous Zero-Knowledge Link Intelligence & Anti-Phishing Sentinel for Android</b>
+</p>
+
+<p align="center">
+  <a href="https://developer.android.com"><img src="https://img.shields.io/badge/Platform-Android_9.0+_(API_28+)-green.svg" alt="Platform" /></a>
+  <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/Language-Kotlin_2.0-blue.svg" alt="Language" /></a>
+  <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/UI-Jetpack_Compose_Material_3-purple.svg" alt="UI" /></a>
+  <img src="https://img.shields.io/badge/Binary_Size-3.54_MB_(R8_Optimized)-brightgreen.svg" alt="Binary Size" />
+  <img src="https://img.shields.io/badge/Privacy-100%25_On--Device_Inference-black.svg" alt="Privacy" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License" /></a>
+</p>
 
 ---
 
 ## Executive Overview
 
-**Vigil** is a next-generation Android cybersecurity engine engineered to autonomously intercept, parse, and analyze deceptive uniform resource locators (URLs) across system messaging apps, SMS gateways, browsers, and social communications. Designed around a strict zero-knowledge architecture, Vigil processes heuristics locally on-device without exfiltrating browsing history, network packets, or personal telemetry to remote tracking servers.
+**Vigil** is an Android cybersecurity sentinel engineered to autonomously intercept, evaluate, and neutralize deceptive and malicious uniform resource locators (URLs) across messaging apps, SMS gateways, web browsers, and social communications. Built upon a strict zero-knowledge architecture, Vigil executes threat evaluation directly on-device without telemetry exfiltration or tracking user browsing activity.
 
-By coupling real-time heuristic brand spoofing detection with live threat feeds from global intelligence aggregators (OpenPhish), Vigil neutralizes credential harvesters, zero-day spoofed domains, homograph Unicode attacks, and high-entropy shorteners before execution.
-
----
-
-## User Interface & Visual Showcase
-
-| Minimalist Kinetic Splash | Real-Time Threat Counter | Classified Forensic Reports |
-|:---:|:---:|:---:|
-| <img src="docs/images/splash_screen.png" width="260" alt="Splash Screen" /> | <img src="docs/images/home_screen.png" width="260" alt="Home Dashboard" /> | <img src="docs/images/reports_screen.png" width="260" alt="Forensic Reports" /> |
-| Pure animated cybernetic shield | Live OpenPhish 3x5 LED dot matrix meter | Chronological and risk-classified telemetry |
-
-| Autonomous Inspection Alert | Legal Compliance & Privacy Framework |
-|:---:|:---:|
-| <img src="docs/images/threat_card.png" width="260" alt="Threat Overlay Alert" /> | <img src="docs/images/settings_screen.png" width="260" alt="Settings Compliance" /> |
-| System overlay intercepting dangerous targets | Strict binding agreement & on-device privacy terms |
+By coupling real-time heuristic brand lookalike detection with live threat feeds from global intelligence aggregators (OpenPhish), Vigil neutralizes credential harvesters, zero-day spoofed domains, homograph Unicode attacks, and high-entropy shorteners before execution.
 
 ---
 
 ## System Architecture
 
-Vigil operates across five decoupled architectural layers engineered for microsecond-latency evaluation:
+Vigil operates across five decoupled layers engineered for sub-millisecond evaluation latency:
 
 ```mermaid
 flowchart TD
@@ -75,7 +69,7 @@ flowchart TD
 
 ## Interception & Analysis Lifecycle
 
-The following sequence details how an incoming uniform resource identifier is quarantined, parsed, and surfaced to the operator:
+The following sequence illustrates the quarantine, analysis, and containment pipeline triggered when an incoming uniform resource identifier is surfaced on screen:
 
 ```mermaid
 sequenceDiagram
@@ -117,31 +111,31 @@ sequenceDiagram
 ## Core Capabilities
 
 ### 1. Autonomous Accessibility-Driven Interception
-- Continuous background monitoring of accessibility view trees across messaging clients (WhatsApp, Telegram, Signal, SMS, Slack, Discord) and web browsers.
-- Native Unicode normalizer detects IDN homograph spoofing (e.g., Cyrillic characters mimicking Latin alphabets in financial domains).
+* Continuous background monitoring of accessibility view trees across messaging clients (WhatsApp, Telegram, Signal, SMS, Slack, Discord) and web browsers.
+* Native Unicode normalizer detects IDN homograph spoofing (e.g., Cyrillic characters mimicking Latin alphabets in financial domains).
 
 ### 2. Live Global Threat Feed (OpenPhish Integration)
-- Integrated threat scraper syncing telemetry from OpenPhish (`https://openphish.com/`).
-- Real-time animated 3x5 LED dot-matrix counter displaying active phishing links, total processed URLs, and active targeted brands.
-- Cached on-device with exponential backoff network synchronization.
+* Direct telemetry synchronization from OpenPhish (`https://openphish.com/`).
+* Real-time animated 3x5 LED dot-matrix counter displaying active phishing links, total processed URLs, and active targeted brands.
+* Cached on-device with exponential backoff network synchronization.
 
 ### 3. Deep Heuristic Risk Scoring
-- **Brand Lookalike Detection**: Evaluates domain substrings against high-value targets (Google, Apple, Microsoft, PayPal, Netflix, Amazon, Banking portals).
-- **Shannon Entropy Analysis**: Flags generated subdomains, DGA (domain generation algorithm) links, and random phishing routing endpoints.
-- **Protocol & TLD Risk Multipliers**: Inspects raw IP endpoints, deceptive ports, and high-abuse free top-level domains.
+* **Brand Lookalike Detection**: Evaluates domain substrings against high-value targets (Google, Apple, Microsoft, PayPal, Netflix, Amazon, Banking portals).
+* **Shannon Entropy Analysis**: Flags generated subdomains, DGA (domain generation algorithm) links, and random phishing routing endpoints.
+* **Protocol & TLD Risk Multipliers**: Inspects raw IP endpoints, deceptive ports, and high-abuse free top-level domains.
 
 ### 4. Zero-Knowledge Cryptographic Vault
-- Forensic logs are committed to an encrypted Room SQLite database secured via Android KeyStore `AES-256-GCM`.
-- No user link history or metadata leaves the local device.
+* Forensic logs are committed to an encrypted Room SQLite database secured via Android KeyStore `AES-256-GCM`.
+* No user link history or metadata leaves the local device.
 
 ### 5. Classified Chronological Forensics
-- Historical threat logs classified under chronological headers (`TODAY`, `YESTERDAY`, and standard ISO dates).
-- Instant filtering by severity: `Dangerous`, `Caution`, `Safe`, or `All`.
-- Full-screen forensic investigation view detailing trust metrics, risk factors, target package names, and raw URLs.
+* Historical threat logs classified under chronological headers (`TODAY`, `YESTERDAY`, and standard ISO dates).
+* Instant filtering by severity: `Dangerous`, `Caution`, `Safe`, or `All`.
+* Full-screen forensic investigation view detailing trust metrics, risk factors, target package names, and raw URLs.
 
 ### 6. Ultra-Lightweight Production Footprint
-- Full R8 minification, Dead Code Elimination (DCE), and Android resource shrinking enabled.
-- Binary footprint reduced from 63 MB to **3.54 MB** (94.4% reduction) with minimal memory consumption.
+* Full R8 minification, Dead Code Elimination (DCE), and Android resource shrinking enabled.
+* Binary footprint reduced from 63 MB to **3.54 MB** (94.4% reduction) with minimal memory consumption.
 
 ---
 
@@ -187,7 +181,8 @@ Vigil/
 │               ├── settings/      # Settings, Binding Terms & Privacy Policy
 │               └── splash/        # Animated cyber shield splash transition
 ├── docs/
-│   └── images/                    # UI showcase screenshots and architecture assets
+│   └── images/
+│       └── logo.png               # Official Vigil transparent vector-rendered emblem
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
@@ -198,10 +193,10 @@ Vigil/
 ## Getting Started
 
 ### Prerequisites
-- Android Studio Ladybug (2024.2.1) or higher
-- Java Development Kit (JDK) 17 or 21
-- Android SDK Platforms 28 through 34 installed
-- Physical device or emulator running Android 9.0+
+* Android Studio Ladybug (2024.2.1) or higher
+* Java Development Kit (JDK) 17 or 21
+* Android SDK Platforms 28 through 34 installed
+* Physical device or emulator running Android 9.0+
 
 ### Cloning the Repository
 ```bash
@@ -242,8 +237,8 @@ Vigil incorporates an automatic binding agreement framework. By installing or ut
 ## Author & Maintainer
 
 **Rakesh Pathuri**
-- GitHub: [@rakesh-pathuri](https://github.com/rakesh-pathuri)
-- Email: rakeshpathuri0705@gmail.com
+* GitHub: [@rakesh-pathuri](https://github.com/rakesh-pathuri)
+* Email: rakeshpathuri0705@gmail.com
 
 ---
 
