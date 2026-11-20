@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/logo.png" width="180" alt="Vigil Logo" />
+  <img src="https://raw.githubusercontent.com/rakesh-pathuri/VIGIL/main/docs/images/logo.png" width="180" alt="Vigil Logo" />
 </p>
 
 <h1 align="center">VIGIL</h1>
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="release/Vigil-v2.4.0.apk"><b>Download Ready-To-Install APK (Vigil-v2.4.0.apk &bull; 3.54 MB)</b></a>
+  <a href="https://github.com/rakesh-pathuri/VIGIL/raw/main/release/Vigil-v2.4.0.apk"><b>Download Ready-To-Install APK (Vigil-v2.4.0.apk &bull; 3.54 MB)</b></a>
 </p>
 
 ---
