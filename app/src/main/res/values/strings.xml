@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vigil</string>
+    <string name="accessibility_service_description">Vigil inspects on-screen links across messaging, social, and browser applications to detect malicious, phishing, and deceptive URLs before you open them. Message contents, passwords, and private chats are never collected or stored.</string>
+    <string name="quick_tile_label">Vigil Protection</string>
+</resources>
