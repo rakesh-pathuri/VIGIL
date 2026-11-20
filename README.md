@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rakesh-pathuri/VIGIL/raw/main/release/Vigil-v2.4.0.apk"><b>Download Ready-To-Install APK (Vigil-v2.4.0.apk &bull; 3.54 MB)</b></a>
+  <a href="https://github.com/rakesh-pathuri/VIGIL/releases/download/v2.4.0/Vigil-v2.4.0.apk"><b>Download Ready-To-Install APK (Vigil-v2.4.0.apk &bull; 3.8 MB)</b></a>
 </p>
 
 ---
