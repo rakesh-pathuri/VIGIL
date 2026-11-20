@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/Privacy-100%25_On--Device-black.svg" alt="Privacy" />
 </p>
 
+<p align="center">
+  <a href="release/Vigil-v2.4.0.apk"><b>Download Ready-To-Install APK (Vigil-v2.4.0.apk &bull; 3.54 MB)</b></a>
+</p>
+
 ---
 
 ## What is Vigil?
