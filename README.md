@@ -150,7 +150,7 @@ When you open Vigil for the first time:
 
 ---
 
-## Author
+## Developer
 
 **Rakesh Pathuri**  
 * GitHub: [@rakesh-pathuri](https://github.com/rakesh-pathuri)  
