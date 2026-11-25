@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/Platform-Android_9.0+-green.svg" alt="Platform" />
   <img src="https://img.shields.io/badge/Language-Kotlin_2.0-blue.svg" alt="Language" />
   <img src="https://img.shields.io/badge/UI-Jetpack_Compose-purple.svg" alt="UI" />
-  <img src="https://img.shields.io/badge/Size-3.54_MB-brightgreen.svg" alt="Size" />
   <img src="https://img.shields.io/badge/Privacy-100%25_On--Device-black.svg" alt="Privacy" />
 </p>
 
